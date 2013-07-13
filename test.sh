@@ -1,4 +1,5 @@
 #!/bin/sh
+easy_install virtualenv
 echo "Building VE..."
 virtualenv --no-site-packages ve
 echo "Installing requirements..."
